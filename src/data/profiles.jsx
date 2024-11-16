@@ -1,0 +1,98 @@
+export const allProfiles = [
+  {
+    id: 1,
+    name: "Aarav Sharma",
+    description: "Software Engineer",
+    photo: "https://randomuser.me/api/portraits/men/1.jpg",
+    address: "Bangalore, Karnataka, India",
+    contact: {
+      email: "Aarav.Sharma@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 2,
+    name: "Priya Gupta",
+    description: "Graphic Designer",
+    photo: "https://randomuser.me/api/portraits/women/2.jpg",
+    address: "Delhi, India",
+    contact: {
+      email: "Priya.Gupta@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 3,
+    name: "Ravi Patel",
+    description: "Data Scientist",
+    photo: "https://randomuser.me/api/portraits/men/3.jpg",
+    address: "Mumbai, Maharashtra, India",
+    contact: {
+      email: "Ravi.Patel@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 4,
+    name: "Simran Kaur",
+    description: "UI/UX Designer",
+    photo: "https://randomuser.me/api/portraits/women/4.jpg",
+    address: "Chandigarh, India",
+    contact: {
+      email: "Simran.Kaur@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 5,
+    name: "Ankit Yadav",
+    description: "Product Manager",
+    photo: "https://randomuser.me/api/portraits/men/5.jpg",
+    address: "Pune, Maharashtra, India",
+    contact: {
+      email: "Ankit.Yadav@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 6,
+    name: "Neha Mehta",
+    description: "Marketing Specialist",
+    photo: "https://randomuser.me/api/portraits/women/6.jpg",
+    address: "Ahmedabad, Gujarat, India",
+    contact: {
+      email: "Neha.Mehta@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 7,
+    name: "Vikram Singh",
+    description: "Full Stack Developer",
+    photo: "https://randomuser.me/api/portraits/men/7.jpg",
+    address: "Hyderabad, Telangana, India",
+    contact: {
+      email: "Vikram.Singh@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+  {
+    id: 8,
+    name: "Ananya Deshmukh",
+    description: "Web Developer",
+    photo: "https://randomuser.me/api/portraits/women/8.jpg",
+    address: "Chennai, Tamil Nadu, India",
+    contact: {
+      email: "Ananya.Deshmukh@gmail.com",
+      phone: "+1234567890",
+    },
+    interests: ["Coding", "Traveling", "Photography"],
+  },
+];

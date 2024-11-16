@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import Navbar from "./components/Navbar";
+import AdminPanel from "./components/AdminPanel";
+import ProfileList from "./components/ProfileList";
+import { Routes, Route } from "react-router-dom";
+import { ProfilesContext } from "./ContextAPI/ProfilesContext";
+import ProfileDetails from "./components/ProfileDetails";
 
-function App() {
+const App = () => {
+  const { profileToEdit } = useContext(ProfilesContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100">
+      <Navbar />
+
+      <Routes>
+        {/* Home Route Displays the Profile List */}
+        <Route path="/" element={<ProfileList />} />
+        <Route path="/profile/:id" element={<ProfileDetails />} />
+
+        {/* Admin Panel Route */}
+        <Route
+          path={profileToEdit ? "/dashboard/:id" : "/dashboard"}
+          element={<AdminPanel />}
+        />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
